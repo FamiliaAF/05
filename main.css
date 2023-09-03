@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100;9..144,500;9..144,900&display=swap');
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Fraunces', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.home-hero {
+    background-image: url('./images/hero.jpg');
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.hero-img {
+    max-height: 400px;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.slide-img {
+    max-height: 100vh;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.header-about {
+    background-image: url('./images/about-hero.jpg');
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-about {
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+.shop-hero {
+    background-image: url('./images/shop-hero.jpg');
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
